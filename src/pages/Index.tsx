@@ -173,8 +173,6 @@ export default function Index() {
 
   return (
     <main className="relative h-screen w-full overflow-hidden bg-background">
-      <GrainOverlay />
-
       <div
         ref={shaderContainerRef}
         className={`fixed inset-0 z-0 transition-opacity duration-700 ${isLoaded ? "opacity-100" : "opacity-0"}`}
